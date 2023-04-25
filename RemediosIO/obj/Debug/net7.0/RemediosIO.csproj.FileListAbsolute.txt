@@ -74,3 +74,4 @@ C:\APIs com ASP.NET Core\RemediosIO\RemediosIO\obj\Debug\net7.0\refint\RemediosI
 C:\APIs com ASP.NET Core\RemediosIO\RemediosIO\obj\Debug\net7.0\RemediosIO.pdb
 C:\APIs com ASP.NET Core\RemediosIO\RemediosIO\obj\Debug\net7.0\RemediosIO.genruntimeconfig.cache
 C:\APIs com ASP.NET Core\RemediosIO\RemediosIO\obj\Debug\net7.0\ref\RemediosIO.dll
+C:\APIs com ASP.NET Core\RemediosIO\RemediosIO\bin\Debug\net7.0\Newtonsoft.Json.dll

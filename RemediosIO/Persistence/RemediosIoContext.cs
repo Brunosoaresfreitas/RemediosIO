@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using RemediosIO.Models;
 
-namespace RemediosIO.Models;
+namespace RemediosIO.Persistence;
 
 public partial class RemediosIoContext : DbContext
 {

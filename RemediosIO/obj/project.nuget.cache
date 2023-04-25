@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n1+U2f3x8RB//5mNqh4coFOThmTI6LF6ZjMMsK5OrMCVQ394fF1zztvvtA/FnkQWCdA0GdzZfuEvdLZUCSDqow==",
+  "dgSpecHash": "I/wUiRlSV8Kc6UYMpuRsD6sZls0NSYJJyHOi1Dwq8LzPEcWAf24x9LE8IrzwIpchGO0FZQW5X49einKb/xGZGQ==",
   "success": true,
   "projectFilePath": "C:\\APIs com ASP.NET Core\\RemediosIO\\RemediosIO\\RemediosIO.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

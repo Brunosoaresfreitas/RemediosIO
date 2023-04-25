@@ -5,6 +5,12 @@ namespace RemediosIO.Models;
 
 public partial class Strip
 {
+    public Strip(string stripName, string? description)
+    {
+        StripName = stripName;
+        Description = description;
+    }
+
     public int Id { get; set; }
 
     public string StripName { get; set; } = null!;
