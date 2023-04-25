@@ -5,6 +5,12 @@ namespace RemediosIO.Models;
 
 public partial class Category
 {
+    public Category(string name, string? description)
+    {
+        Name = name;
+        Description = description;
+    }
+
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;
