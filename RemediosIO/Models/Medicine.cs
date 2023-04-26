@@ -5,6 +5,18 @@ namespace RemediosIO.Models;
 
 public partial class Medicine
 {
+    public Medicine(string name, string manufacturer, string? dosageInstructions, string? warnings, DateTime? postedat, int? idSupplier, int? idStrip, int? idCategory)
+    {
+        Name = name;
+        Manufacturer = manufacturer;
+        DosageInstructions = dosageInstructions;
+        Warnings = warnings;
+        Postedat = postedat;
+        IdSupplier = idSupplier;
+        IdStrip = idStrip;
+        IdCategory = idCategory;
+    }
+
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;

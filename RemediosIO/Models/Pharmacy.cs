@@ -5,6 +5,14 @@ namespace RemediosIO.Models;
 
 public partial class Pharmacy
 {
+    public Pharmacy(string name, string address, string phoneNumber, string email)
+    {
+        Name = name;
+        Address = address;
+        PhoneNumber = phoneNumber;
+        Email = email;
+    }
+
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;

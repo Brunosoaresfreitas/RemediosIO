@@ -5,6 +5,15 @@ namespace RemediosIO.Models;
 
 public partial class Supplier
 {
+    public Supplier(string supplierName, string cnpj, string email, string address, string state)
+    {
+        SupplierName = supplierName;
+        Cnpj = cnpj;
+        Email = email;
+        Address = address;
+        State = state;
+    }
+
     public int Id { get; set; }
 
     public string SupplierName { get; set; } = null!;

@@ -5,6 +5,16 @@ namespace RemediosIO.Models;
 
 public partial class Client
 {
+    public Client(string name, string cpf, string address, string? medicalHistory, string phonenumber, int? idPharmacy)
+    {
+        Name = name;
+        Cpf = cpf;
+        Address = address;
+        MedicalHistory = medicalHistory;
+        Phonenumber = phonenumber;
+        IdPharmacy = idPharmacy;
+    }
+
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;

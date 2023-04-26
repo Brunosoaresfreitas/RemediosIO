@@ -66,5 +66,21 @@ namespace RemediosIO.Controllers
             await _stripRepository.DeleteAsync(strip);
             return NoContent();
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] StripInputModel model)
+        {
+            var strip = await _stripRepository.GetByIdAsync(id);
+
+            if (strip == null)
+            {
+                return NotFound();
+            }
+
+            strip.Update(model.StripName, model.Description);
+            await _stripRepository.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }

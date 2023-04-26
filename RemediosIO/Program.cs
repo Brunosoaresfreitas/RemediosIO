@@ -15,6 +15,9 @@ builder.Services.AddDbContext<RemediosIoContext>(o => o.UseSqlServer(connectionS
 builder.Services.AddScoped<IStripRepository, StripRepository>();
 builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IPharmacyRepository, PharmacyRepository>();
+builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
