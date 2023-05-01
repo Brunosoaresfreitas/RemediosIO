@@ -1,6 +1,6 @@
-# <h1 align="center"> DEV FREELA </h1>
+# <h1 align="center"> RemediosIO </h1>
 
-## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge)</p>
+## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM DESENVOLVIMENTO&color=RED&style=for-the-badge)</p>
 
 ![Exemplo de imagem](./images/Print1.png)
 
