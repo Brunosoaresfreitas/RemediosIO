@@ -1,6 +1,6 @@
 # <h1 align="center"> RemediosIO </h1>
 
-## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM&DESENVOLVIMENTO&color=RED&style=for-the-badge)</p>
+## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge)</p>
 
 ![Exemplo de imagem](./images/Print1.png)
 
@@ -21,17 +21,10 @@ Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo 
 
 ## 🎯 Funcionalidades
 
-✔️ Cadastro de usuários com perfil de cliente / freelancer
 
 ✔️ Login dos usuários
 
-✔️ Excluir / atualizar usuários
-
-✔️ Cadastrar / atualizar/ excluir /consultar um projeto de freelancer
-
-✔️ Inicializar / finalizar um projeto
-
-✔️ Adicionar comentários a um projeto de freelancer
+✔️ Cadastrar / atualizar/ excluir / consultar remédios, categorias, tarjas, fornecedores, farmácias e clientes
 
 
 ## 🚀 Como executar o projeto
@@ -47,13 +40,9 @@ Algum editor para trabalhar com o código, como por exemplo o [Visual Studio](ht
 
 ```
 # Clone este repositório
-$ git clone https://github.com/Brunosoaresfreitas/DevFreela
+$ git clone https://github.com/Brunosoaresfreitas/RemediosIO.git
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd DevFreela
-
-# Vá para a pasta API
-$ cd DevFreela.API
+# Navegue pelo cmd até a pasta que contém o arquivo principal do projeto .\RemediosIO\RemediosIO
 
 # Instale as dependências
 $ dotnet restore
@@ -64,7 +53,7 @@ $ dotnet build
 # Execute a aplicação 
 $ dotnet run
 
-# O servidor inciará na porta:7140 - acesse http://localhost:7140
+# O servidor inciará por padrão na porta porta:7262 - acesse http://localhost:7262
 ```
 
 ## 🛠️ Tecnologias
@@ -79,10 +68,6 @@ As seguintes tecnologias e métodos foram utilizadas durante o desenvolvimento d
 
 - ``SQL Server``
 
-- ``Arquitetura Limpa``
-
-- ``Padrão CQRS``
-
 - ``Padrão Repository``
 
 ## ✒️ Autores
@@ -91,4 +76,4 @@ As seguintes tecnologias e métodos foram utilizadas durante o desenvolvimento d
 <a href="https://www.linkedin.com/in/bruno-henrique-soares-de-freitas-32ab85243/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/Brunosoaresfreitas/DevFreela).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/Brunosoaresfreitas/RemediosIO/tree/main/RemediosIO).
