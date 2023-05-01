@@ -2,7 +2,14 @@
 
 ## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge)</p>
 
-![Exemplo de imagem](./images/Print1.png)
+![Imagem dos endpoints1](./images/Print1.png)
+![Imagem dos endpoints2](./images/Print2.png)
+![Exemplo de Get](./images/ExemploGet.png)
+![Exemplo de Post](./images/ExemploPost.png)
+![Exemplo de Get por Id](./images/ExemploGetId.png)
+![Exemplo de Put](./images/ExemploPut.png)
+![Exemplo de Delete](./images/ExemploDelete.png)
+
 
 # Índice 
 
