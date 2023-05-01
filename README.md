@@ -14,12 +14,19 @@
 
 ## Documentação da API 
 
+Endpoints parte 1:
 ![Imagem dos endpoints1](./images/Print1.png)
+Endpoints parte 2:
 ![Imagem dos endpoints2](./images/Print2.png)
+Exemplo de utilização do método Get
 ![Exemplo de Get](./images/ExemploGet.png)
+Exemplo de utilização do método Post
 ![Exemplo de Post](./images/ExemploPost.png)
+Exemplo de utilização do método Get filtrando por um Id específico:
 ![Exemplo de Get por Id](./images/ExemploGetId.png)
+Exemplo de utilização do método Put passando o Id como parâmetro:
 ![Exemplo de Put](./images/ExemploPut.png)
+Exemplo da utilização do método Delete informando o Id:
 ![Exemplo de Delete](./images/ExemploDelete.png)
 
 
