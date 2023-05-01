@@ -67,5 +67,21 @@ namespace RemediosIO.Controllers
 
             return NoContent();
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] ClientUpdateModel model)
+        {
+            var client = await _clientRepository.GetByIdAsync(id);
+
+            if (client == null)
+            {
+                return NotFound();
+            }
+
+            client.Update(model.Name, model.Address, model.PhoneNumber);
+            await _clientRepository.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }

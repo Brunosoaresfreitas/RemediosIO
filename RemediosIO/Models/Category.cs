@@ -18,4 +18,10 @@ public partial class Category
     public string? Description { get; set; }
 
     public virtual ICollection<Medicine> Medicines { get; set; } = new List<Medicine>();
+
+    public void Update(string name, string? description)
+    {
+        Name = name;
+        Description = description;
+    }
 }

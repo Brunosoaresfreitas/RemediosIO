@@ -30,4 +30,11 @@ public partial class Client
     public int? IdPharmacy { get; set; }
 
     public virtual Pharmacy? IdPharmacyNavigation { get; set; }
+
+    public void Update(string name, string address, string phoneNumber)
+    {
+        Name = name;
+        Address = address;
+        Phonenumber = phoneNumber;
+    }
 }

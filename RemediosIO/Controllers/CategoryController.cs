@@ -66,5 +66,21 @@ namespace RemediosIO.Controllers
 
             return NoContent();
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] CategoryInputModel model)
+        {
+            var category = await _categoryRepository.GetByIdAsync(id);
+
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            category.Update(model.Name, model.Description);
+            await _categoryRepository.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
