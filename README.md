@@ -2,6 +2,18 @@
 
 ## <p align="center">![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge)</p>
 
+# Índice 
+
+* [Prints da API documentada no Swagger](#-documentação-da-API)
+* [Sobre o projeto](#-sobre-o-projeto)
+* [Funcionalidades](#-funcionalidades)
+* [Como executar](#-como-executar-o-projeto)
+* [Tecnologias](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-tecnologias)
+* [Autores](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-autores)
+* [Acessar o Projeto](#-acesso-ao-projeto)
+
+## Documentação da API 
+
 ![Imagem dos endpoints1](./images/Print1.png)
 ![Imagem dos endpoints2](./images/Print2.png)
 ![Exemplo de Get](./images/ExemploGet.png)
@@ -10,15 +22,6 @@
 ![Exemplo de Put](./images/ExemploPut.png)
 ![Exemplo de Delete](./images/ExemploDelete.png)
 
-
-# Índice 
-
-* [Sobre o projeto](#-sobre-o-projeto)
-* [Funcionalidades](#-funcionalidades)
-* [Como executar](#-como-executar-o-projeto)
-* [Tecnologias](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-tecnologias)
-* [Autores](https://github.com/Brunosoaresfreitas/DevFreela/blob/main/README.md#%EF%B8%8F-autores)
-* [Acessar o Projeto](#-acesso-ao-projeto)
 
 ## 💻 Sobre o projeto
 
