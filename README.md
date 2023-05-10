@@ -32,9 +32,7 @@ Exemplo da utilização do método Delete informando o Id:
 
 ## 💻 Sobre o projeto
 
-Dev Freela -> Plataforma para cadastro e contratação de freelancers.
-
-Projeto desenvolvido durante o curso Formação ASP .NET Core - ministrado pelo Luis Dev.
+RemediosIO -> Plataforma para gerenciar remédios, fornecedores, farmácias, clientes, categorias e tarjas de medicamentos.
 
 ## 🎯 Funcionalidades
 
